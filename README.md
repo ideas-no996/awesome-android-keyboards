@@ -1,8 +1,12 @@
 # Awesome Android Keyboards
 
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE) ![Last Updated](https://img.shields.io/badge/last%20updated-2026--06--09-blue) [![GitHub Stars](https://img.shields.io/github/stars/ideas-no996/awesome-android-keyboards?style=social)](https://github.com/ideas-no996/awesome-android-keyboards/stargazers)
+
 > A curated, maintainable map of Android keyboard and input method ecosystems.
 
-This repository tracks commercial keyboards, open-source keyboards, Rime-based IMEs, hacker-oriented keyboards, AI-assisted keyboards, theme resources, and Android IME development references. It favors maintainability over volume: each entry should have a source, a clear category, and a short original evaluation.
+Awesome Android Keyboards is a professional index for the android keyboard ecosystem: Android IME apps, input method engines, privacy keyboard choices, open-source keyboard projects, Rime and Trime front-ends, F-Droid packages, commercial keyboards, developer keyboards, theme systems, and Android InputMethodService resources. It is built for users comparing daily keyboards, developers studying Android IME architecture, Chinese input method users evaluating Rime-based workflows, and maintainers looking for realistic open-source keyboard bases.
+
+The list is intentionally conservative. It does not rank projects by hype, copy marketing text, or treat closed-source claims as implementation facts. Each entry is backed by structured data in YAML, source links, maintenance notes, privacy/network signals, theme suitability, Chinese input support, and a short original review.
 
 Data file: [`data/keyboards.yml`](data/keyboards.yml). Generated from structured data on 2026-06-09.
 

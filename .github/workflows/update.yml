@@ -31,7 +31,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate README
-        run: python scripts/generate_readme.py
+        run: |
+          python scripts/generate_readme.py
+          python scripts/generate_pages.py
 
       - uses: DavidAnson/markdownlint-cli2-action@v17
         with:

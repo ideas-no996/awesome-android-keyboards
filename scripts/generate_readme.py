@@ -14,6 +14,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "keyboards.yml"
 README_PATH = ROOT / "README.md"
+REPO = "ideas-no996/awesome-android-keyboards"
 
 CATEGORIES = [
     "Commercial Keyboards",
@@ -58,6 +59,16 @@ def date_only(text: str | None) -> str:
 
 def anchors(title: str) -> str:
     return title.lower().replace("/", "").replace(" ", "-")
+
+
+def badges(last_updated: str) -> list[str]:
+    badge_date = last_updated.replace("-", "--")
+    return [
+        "[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)",
+        "[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE)",
+        f"![Last Updated](https://img.shields.io/badge/last%20updated-{badge_date}-blue)",
+        f"[![GitHub Stars](https://img.shields.io/github/stars/{REPO}?style=social)](https://github.com/{REPO}/stargazers)",
+    ]
 
 
 def recommendations(items: list[dict[str, Any]]) -> list[str]:
@@ -152,12 +163,17 @@ def main() -> int:
             grouped[category].append(item)
 
     now = datetime.now(timezone.utc).date().isoformat()
+    last_updated = value(data.get("metadata", {}).get("last_updated") or now)
     lines = [
         "# Awesome Android Keyboards",
         "",
+        " ".join(badges(last_updated)),
+        "",
         "> A curated, maintainable map of Android keyboard and input method ecosystems.",
         "",
-        "This repository tracks commercial keyboards, open-source keyboards, Rime-based IMEs, hacker-oriented keyboards, AI-assisted keyboards, theme resources, and Android IME development references. It favors maintainability over volume: each entry should have a source, a clear category, and a short original evaluation.",
+        "Awesome Android Keyboards is a professional index for the android keyboard ecosystem: Android IME apps, input method engines, privacy keyboard choices, open-source keyboard projects, Rime and Trime front-ends, F-Droid packages, commercial keyboards, developer keyboards, theme systems, and Android InputMethodService resources. It is built for users comparing daily keyboards, developers studying Android IME architecture, Chinese input method users evaluating Rime-based workflows, and maintainers looking for realistic open-source keyboard bases.",
+        "",
+        "The list is intentionally conservative. It does not rank projects by hype, copy marketing text, or treat closed-source claims as implementation facts. Each entry is backed by structured data in YAML, source links, maintenance notes, privacy/network signals, theme suitability, Chinese input support, and a short original review.",
         "",
         f"Data file: [`data/keyboards.yml`](data/keyboards.yml). Generated from structured data on {now}.",
         "",
