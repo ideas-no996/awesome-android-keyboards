@@ -1,0 +1,763 @@
+metadata:
+  project: awesome-android-keyboards
+  description: Curated Android keyboard and IME ecosystem data.
+  last_updated: '2026-06-09'
+  data_policy: 'Facts are kept short and source-backed. Reviews are original summaries, not copied from project pages.
+
+    '
+keyboards:
+- name: Gboard
+  category: Commercial Keyboards
+  repo_url: null
+  website_url: https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin
+  fdroid_url: null
+  play_store_url: https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin
+  license: Proprietary
+  open_source: false
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: Proprietary Android IME
+  android_ime_framework: Android InputMethodService
+  chinese_support: good
+  languages:
+  - Multilingual
+  - English
+  - Chinese
+  theme_system: good
+  customization_level: medium
+  offline_support: partial
+  privacy_level: medium
+  network_requirement: optional cloud features
+  glide_typing: true
+  voice_input: true
+  ai_features: limited
+  dictionary_prediction: advanced
+  development_feasibility: low
+  architecture_complexity: high
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin
+  - https://support.google.com/gboard/
+  last_verified: '2026-06-09'
+  notes: Proprietary mainstream keyboard with strong multilingual coverage.
+  recommendation_reason: Best baseline recommendation for users who want reliability and broad language support.
+- name: Microsoft SwiftKey
+  category: Commercial Keyboards
+  secondary_categories:
+  - AI-assisted Keyboards
+  - Theme and Customization Resources
+  repo_url: null
+  website_url: https://www.microsoft.com/swiftkey
+  fdroid_url: null
+  play_store_url: https://play.google.com/store/apps/details?id=com.touchtype.swiftkey
+  license: Proprietary
+  open_source: false
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: Proprietary Android IME
+  android_ime_framework: Android InputMethodService
+  chinese_support: good
+  languages:
+  - Multilingual
+  - English
+  - Chinese
+  theme_system: advanced
+  customization_level: high
+  offline_support: partial
+  privacy_level: medium
+  network_requirement: optional cloud sync and AI features
+  glide_typing: true
+  voice_input: true
+  ai_features: integrated
+  dictionary_prediction: advanced
+  development_feasibility: low
+  architecture_complexity: high
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://www.microsoft.com/swiftkey
+  - https://play.google.com/store/apps/details?id=com.touchtype.swiftkey
+  last_verified: '2026-06-09'
+  notes: Commercial keyboard with mature prediction and rich theme support.
+  recommendation_reason: Strong mainstream choice for users who value prediction quality and visual customization.
+- name: WeChat Keyboard
+  category: Commercial Keyboards
+  repo_url: null
+  website_url: https://z.weixin.qq.com/
+  fdroid_url: null
+  play_store_url: null
+  license: Proprietary
+  open_source: false
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: Proprietary Android IME
+  android_ime_framework: Android InputMethodService
+  chinese_support: excellent
+  languages:
+  - Chinese
+  theme_system: basic
+  customization_level: medium
+  offline_support: partial
+  privacy_level: medium
+  network_requirement: optional cloud services
+  glide_typing: false
+  voice_input: true
+  ai_features: limited
+  dictionary_prediction: advanced
+  development_feasibility: low
+  architecture_complexity: high
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://z.weixin.qq.com/
+  last_verified: '2026-06-09'
+  notes: Chinese-first keyboard tied closely to the WeChat ecosystem.
+  recommendation_reason: Practical option for Chinese users already living in Tencent services.
+- name: Baidu IME
+  category: Commercial Keyboards
+  secondary_categories:
+  - AI-assisted Keyboards
+  - Theme and Customization Resources
+  repo_url: null
+  website_url: https://shurufa.baidu.com/
+  fdroid_url: null
+  play_store_url: null
+  license: Proprietary
+  open_source: false
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: Proprietary Android IME
+  android_ime_framework: Android InputMethodService
+  chinese_support: excellent
+  languages:
+  - Chinese
+  - English
+  theme_system: advanced
+  customization_level: high
+  offline_support: partial
+  privacy_level: medium
+  network_requirement: optional cloud prediction and services
+  glide_typing: false
+  voice_input: true
+  ai_features: integrated
+  dictionary_prediction: advanced
+  development_feasibility: low
+  architecture_complexity: high
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://shurufa.baidu.com/
+  last_verified: '2026-06-09'
+  notes: Feature-rich Chinese IME with a large skin and service ecosystem.
+  recommendation_reason: Worth tracking for Chinese input UX patterns, especially commercial theming and prediction.
+- name: Sogou IME
+  category: Commercial Keyboards
+  secondary_categories:
+  - AI-assisted Keyboards
+  - Theme and Customization Resources
+  repo_url: null
+  website_url: https://shurufa.sogou.com/
+  fdroid_url: null
+  play_store_url: null
+  license: Proprietary
+  open_source: false
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: Proprietary Android IME
+  android_ime_framework: Android InputMethodService
+  chinese_support: excellent
+  languages:
+  - Chinese
+  - English
+  theme_system: advanced
+  customization_level: high
+  offline_support: partial
+  privacy_level: medium
+  network_requirement: optional cloud prediction and services
+  glide_typing: false
+  voice_input: true
+  ai_features: integrated
+  dictionary_prediction: advanced
+  development_feasibility: low
+  architecture_complexity: high
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://shurufa.sogou.com/
+  last_verified: '2026-06-09'
+  notes: Long-running Chinese IME with strong phrase prediction and skin culture.
+  recommendation_reason: Useful reference point for Chinese commercial keyboard features and theme marketplaces.
+- name: HeliBoard
+  category: Open Source Keyboards
+  secondary_categories:
+  - Privacy-focused Keyboards
+  - Theme and Customization Resources
+  repo_url: https://github.com/Helium314/HeliBoard
+  website_url: null
+  fdroid_url: https://f-droid.org/packages/helium314.keyboard/
+  play_store_url: null
+  license: GPL-3.0
+  open_source: true
+  stars: 5418
+  forks: 329
+  last_commit: '2026-06-05T04:08:18Z'
+  last_release: null
+  archived: false
+  maintenance_status: active
+  tech_stack: Kotlin, Java, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: basic
+  languages:
+  - Multilingual
+  theme_system: good
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none by default
+  glide_typing: true
+  voice_input: optional
+  ai_features: none
+  dictionary_prediction: good
+  development_feasibility: high
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/Helium314/HeliBoard
+  - https://f-droid.org/packages/helium314.keyboard/
+  last_verified: '2026-06-09'
+  notes: Active privacy-friendly fork in the LatinIME/OpenBoard lineage.
+  recommendation_reason: Best starting point for privacy-minded users and theme-oriented forks.
+- name: FlorisBoard
+  category: Open Source Keyboards
+  secondary_categories:
+  - Privacy-focused Keyboards
+  - Theme and Customization Resources
+  repo_url: https://github.com/florisboard/florisboard
+  website_url: https://florisboard.org/
+  fdroid_url: https://f-droid.org/packages/dev.patrickgold.florisboard/
+  play_store_url: null
+  license: Apache-2.0
+  open_source: true
+  stars: 8404
+  forks: 665
+  last_commit: '2026-04-24T03:56:58Z'
+  last_release: '2025-11-28T15:17:55Z'
+  archived: false
+  maintenance_status: active
+  tech_stack: Kotlin, Jetpack Compose, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: basic
+  languages:
+  - Multilingual
+  theme_system: advanced
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none by default
+  glide_typing: planned
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: evolving
+  development_feasibility: high
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/florisboard/florisboard
+  - https://florisboard.org/
+  last_verified: '2026-06-09'
+  notes: Modern open-source keyboard with strong theming direction and active architecture work.
+  recommendation_reason: Best candidate for serious UI experiments, Compose-based refactors, and custom themes.
+- name: FUTO Keyboard
+  category: Privacy-focused Keyboards
+  secondary_categories:
+  - AI-assisted Keyboards
+  - Theme and Customization Resources
+  repo_url: https://github.com/futo-org/android-keyboard
+  website_url: https://keyboard.futo.org/
+  fdroid_url: null
+  play_store_url: https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin
+  license: FUTO Source First License
+  open_source: true
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: Kotlin, Java, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: basic
+  languages:
+  - Multilingual
+  theme_system: good
+  customization_level: medium
+  offline_support: true
+  privacy_level: high
+  network_requirement: none for core typing
+  glide_typing: true
+  voice_input: true
+  ai_features: local models
+  dictionary_prediction: advanced
+  development_feasibility: medium
+  architecture_complexity: high
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/futo-org/android-keyboard
+  - https://keyboard.futo.org/
+  last_verified: '2026-06-09'
+  notes: Privacy-oriented keyboard with local-first ambitions and richer prediction features.
+  recommendation_reason: Interesting bridge between mainstream prediction quality and privacy-first design.
+- name: OpenBoard
+  category: Open Source Keyboards
+  repo_url: https://github.com/openboard-team/openboard
+  website_url: null
+  fdroid_url: https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/
+  play_store_url: null
+  license: GPL-3.0
+  open_source: true
+  stars: 2724
+  forks: 290
+  last_commit: '2024-05-16T16:55:59Z'
+  last_release: null
+  archived: false
+  maintenance_status: maintenance-only
+  tech_stack: Java, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: basic
+  languages:
+  - Multilingual
+  theme_system: basic
+  customization_level: medium
+  offline_support: true
+  privacy_level: high
+  network_requirement: none by default
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: basic
+  development_feasibility: medium
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://github.com/openboard-team/openboard
+  - https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/
+  last_verified: '2026-06-09'
+  notes: Clean AOSP-derived keyboard, useful historically and as a simpler code base.
+  recommendation_reason: Good reference for minimal offline keyboard behavior, but check maintenance before forking.
+- name: AnySoftKeyboard
+  category: Open Source Keyboards
+  secondary_categories:
+  - Theme and Customization Resources
+  repo_url: https://github.com/AnySoftKeyboard/AnySoftKeyboard
+  website_url: https://anysoftkeyboard.github.io/
+  fdroid_url: https://f-droid.org/packages/com.menny.android.anysoftkeyboard/
+  play_store_url: https://play.google.com/store/apps/details?id=com.menny.android.anysoftkeyboard
+  license: Apache-2.0
+  open_source: true
+  stars: 3319
+  forks: 923
+  last_commit: '2026-05-17T02:20:56Z'
+  last_release: '2026-02-08T15:13:23Z'
+  archived: false
+  maintenance_status: active
+  tech_stack: Kotlin, Java, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: basic
+  languages:
+  - Multilingual
+  theme_system: advanced
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none by default
+  glide_typing: false
+  voice_input: optional
+  ai_features: none
+  dictionary_prediction: good
+  development_feasibility: medium
+  architecture_complexity: high
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/AnySoftKeyboard/AnySoftKeyboard
+  - https://anysoftkeyboard.github.io/
+  last_verified: '2026-06-09'
+  notes: Mature modular keyboard with language packs and theme infrastructure.
+  recommendation_reason: Strong candidate for studying plugin-like language and theme packaging.
+- name: Simple Keyboard
+  category: Open Source Keyboards
+  repo_url: https://github.com/rkkr/simple-keyboard
+  website_url: null
+  fdroid_url: https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/
+  play_store_url: https://play.google.com/store/apps/details?id=rkr.simplekeyboard.inputmethod
+  license: Apache-2.0
+  open_source: true
+  stars: 1520
+  forks: 332
+  last_commit: '2026-06-01T10:07:49Z'
+  last_release: '2026-05-23T05:12:26Z'
+  archived: false
+  maintenance_status: maintenance-only
+  tech_stack: Kotlin, Java, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: none
+  languages:
+  - Latin
+  theme_system: basic
+  customization_level: low
+  offline_support: true
+  privacy_level: high
+  network_requirement: none
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: none
+  development_feasibility: high
+  architecture_complexity: low
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://github.com/rkkr/simple-keyboard
+  - https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/
+  last_verified: '2026-06-09'
+  notes: Minimal keyboard with a small scope and few moving parts.
+  recommendation_reason: Good for learning Android IME basics or building a deliberately simple fork.
+- name: Unexpected Keyboard
+  category: Developer / Hacker Keyboards
+  repo_url: https://github.com/Julow/Unexpected-Keyboard
+  website_url: null
+  fdroid_url: https://f-droid.org/packages/juloo.keyboard2/
+  play_store_url: https://play.google.com/store/apps/details?id=juloo.keyboard2
+  license: GPL-3.0
+  open_source: true
+  stars: 3054
+  forks: 336
+  last_commit: '2026-05-24T22:43:37Z'
+  last_release: '2026-05-24T22:47:47Z'
+  archived: false
+  maintenance_status: active
+  tech_stack: Kotlin, Java, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: none
+  languages:
+  - Latin
+  - Symbols
+  theme_system: good
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: none
+  development_feasibility: high
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/Julow/Unexpected-Keyboard
+  - https://f-droid.org/packages/juloo.keyboard2/
+  last_verified: '2026-06-09'
+  notes: Symbol-heavy keyboard optimized for programmers, terminals, and power users.
+  recommendation_reason: Excellent reference for non-mainstream layouts and dense gesture-accessible symbols.
+- name: Hacker's Keyboard
+  category: Developer / Hacker Keyboards
+  repo_url: https://github.com/klausw/hackerskeyboard
+  website_url: https://code.google.com/archive/p/hackerskeyboard/
+  fdroid_url: https://f-droid.org/packages/org.pocketworkstation.pckeyboard/
+  play_store_url: https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard
+  license: Apache-2.0
+  open_source: true
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: inactive
+  tech_stack: Java, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: none
+  languages:
+  - Latin
+  theme_system: basic
+  customization_level: medium
+  offline_support: true
+  privacy_level: high
+  network_requirement: none
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: basic
+  development_feasibility: medium
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://github.com/klausw/hackerskeyboard
+  - https://f-droid.org/packages/org.pocketworkstation.pckeyboard/
+  last_verified: '2026-06-09'
+  notes: Classic five-row keyboard for terminal and remote-desktop workflows.
+  recommendation_reason: Historically important hacker keyboard, but new projects should account for age and maintenance risk.
+- name: Trime
+  category: Rime-based Keyboards
+  secondary_categories:
+  - Privacy-focused Keyboards
+  - Theme and Customization Resources
+  repo_url: https://github.com/osfans/trime
+  website_url: https://github.com/osfans/trime
+  fdroid_url: https://f-droid.org/packages/com.osfans.trime/
+  play_store_url: null
+  license: GPL-3.0
+  open_source: true
+  stars: 4375
+  forks: 476
+  last_commit: '2026-06-04T13:10:35Z'
+  last_release: '2026-05-01T01:31:54Z'
+  archived: false
+  maintenance_status: active
+  tech_stack: Kotlin, Java, C++, Rime
+  android_ime_framework: Android InputMethodService
+  chinese_support: rime-based
+  languages:
+  - Chinese
+  - Rime schemas
+  theme_system: advanced
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none by default
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: schema-based
+  development_feasibility: medium
+  architecture_complexity: high
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/osfans/trime
+  - https://f-droid.org/packages/com.osfans.trime/
+  last_verified: '2026-06-09'
+  notes: Android Rime frontend with deep schema and theme customization.
+  recommendation_reason: Best Android choice for serious Chinese Rime users and schema-heavy workflows.
+- name: Fcitx5 for Android
+  category: Rime-based Keyboards
+  secondary_categories:
+  - Privacy-focused Keyboards
+  repo_url: https://github.com/fcitx5-android/fcitx5-android
+  website_url: https://fcitx5-android.github.io/
+  fdroid_url: https://f-droid.org/packages/org.fcitx.fcitx5.android/
+  play_store_url: null
+  license: LGPL-2.1
+  open_source: true
+  stars: 5310
+  forks: 373
+  last_commit: '2026-06-07T11:37:55Z'
+  last_release: '2025-11-01T08:21:22Z'
+  archived: false
+  maintenance_status: active
+  tech_stack: Kotlin, C++, Fcitx5, Rime
+  android_ime_framework: Android InputMethodService
+  chinese_support: rime-based
+  languages:
+  - Chinese
+  - Fcitx addons
+  - Rime schemas
+  theme_system: good
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none by default
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: engine-based
+  development_feasibility: medium
+  architecture_complexity: high
+  suitable_for_ios_like_theme: true
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/fcitx5-android/fcitx5-android
+  - https://fcitx5-android.github.io/
+  last_verified: '2026-06-09'
+  notes: Android port of the Fcitx5 input method framework with addon-oriented design.
+  recommendation_reason: Best reference for bringing desktop IME architecture and Rime support to Android.
+- name: Rime
+  category: Android IME Development Resources
+  repo_url: https://github.com/rime/librime
+  website_url: https://rime.im/
+  fdroid_url: null
+  play_store_url: null
+  license: BSD-3-Clause
+  open_source: true
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: C++, Rime schemas
+  android_ime_framework: Engine/library, not an Android IME by itself
+  chinese_support: rime-based
+  languages:
+  - Chinese
+  - Schema-defined languages
+  theme_system: none
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none by default
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: schema-based
+  development_feasibility: medium
+  architecture_complexity: high
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://github.com/rime/librime
+  - https://rime.im/
+  last_verified: '2026-06-09'
+  notes: Cross-platform input engine powering many Chinese schema-based IMEs.
+  recommendation_reason: Essential engine reference for Chinese IME developers and Rime-based Android projects.
+- name: Thumb-Key
+  category: Privacy-focused Keyboards
+  repo_url: https://github.com/dessalines/thumb-key
+  website_url: null
+  fdroid_url: https://f-droid.org/packages/com.dessalines.thumbkey/
+  play_store_url: https://play.google.com/store/apps/details?id=com.dessalines.thumbkey
+  license: AGPL-3.0
+  open_source: true
+  stars: 1490
+  forks: 306
+  last_commit: '2026-06-06T02:17:55Z'
+  last_release: '2026-05-22T15:19:05Z'
+  archived: false
+  maintenance_status: active
+  tech_stack: Kotlin, Jetpack Compose, Android
+  android_ime_framework: Android InputMethodService
+  chinese_support: none
+  languages:
+  - Multilingual
+  - Thumb layouts
+  theme_system: good
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: none
+  development_feasibility: high
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: true
+  source_urls:
+  - https://github.com/dessalines/thumb-key
+  - https://f-droid.org/packages/com.dessalines.thumbkey/
+  last_verified: '2026-06-09'
+  notes: Thumb-oriented keyboard inspired by compact gesture-based layouts.
+  recommendation_reason: Good reference for alternative mobile typing mechanics and compact UI experiments.
+- name: MessageEase
+  category: Developer / Hacker Keyboards
+  repo_url: null
+  website_url: https://www.exideas.com/ME/
+  fdroid_url: null
+  play_store_url: null
+  license: Proprietary
+  open_source: false
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: inactive
+  tech_stack: Proprietary Android IME
+  android_ime_framework: Android InputMethodService
+  chinese_support: none
+  languages:
+  - English
+  theme_system: basic
+  customization_level: medium
+  offline_support: true
+  privacy_level: medium
+  network_requirement: none for core typing
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: basic
+  development_feasibility: low
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://www.exideas.com/ME/
+  last_verified: '2026-06-09'
+  notes: Alternative one-finger keyboard layout with historical design value.
+  recommendation_reason: Included as a design reference for non-QWERTY mobile input methods.
+- name: Android IME APIs
+  category: Android IME Development Resources
+  repo_url: null
+  website_url: https://developer.android.com/develop/ui/views/touch-and-input/creating-input-method
+  fdroid_url: null
+  play_store_url: null
+  license: Documentation
+  open_source: false
+  stars: null
+  forks: null
+  last_commit: null
+  last_release: null
+  archived: null
+  maintenance_status: active
+  tech_stack: Android SDK, InputMethodService
+  android_ime_framework: Android InputMethodService
+  chinese_support: none
+  languages:
+  - Developer documentation
+  theme_system: none
+  customization_level: high
+  offline_support: true
+  privacy_level: high
+  network_requirement: none
+  glide_typing: false
+  voice_input: false
+  ai_features: none
+  dictionary_prediction: none
+  development_feasibility: high
+  architecture_complexity: medium
+  suitable_for_ios_like_theme: false
+  suitable_for_glassmorphism: false
+  source_urls:
+  - https://developer.android.com/develop/ui/views/touch-and-input/creating-input-method
+  - https://developer.android.com/reference/android/inputmethodservice/InputMethodService
+  last_verified: '2026-06-09'
+  notes: Official Android documentation for building custom input methods.
+  recommendation_reason: Start here before copying any existing keyboard architecture.
