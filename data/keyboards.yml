@@ -1,7 +1,7 @@
 metadata:
   project: awesome-android-keyboards
   description: Curated Android keyboard and IME ecosystem data.
-  last_updated: '2026-06-09'
+  last_updated: '2026-06-15'
   data_policy: 'Facts are kept short and source-backed. Reviews are original summaries, not copied from project pages.
 
     '
@@ -219,10 +219,10 @@ keyboards:
   play_store_url: null
   license: GPL-3.0
   open_source: true
-  stars: 5418
-  forks: 329
-  last_commit: '2026-06-05T04:08:18Z'
-  last_release: null
+  stars: 5450
+  forks: 332
+  last_commit: '2026-06-14T18:14:02Z'
+  last_release: '2026-03-29T10:21:58Z'
   archived: false
   maintenance_status: active
   tech_stack: Kotlin, Java, Android
@@ -246,7 +246,7 @@ keyboards:
   source_urls:
   - https://github.com/Helium314/HeliBoard
   - https://f-droid.org/packages/helium314.keyboard/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Active privacy-friendly fork in the LatinIME/OpenBoard lineage.
   recommendation_reason: Best starting point for privacy-minded users and theme-oriented forks.
 - name: FlorisBoard
@@ -260,8 +260,8 @@ keyboards:
   play_store_url: null
   license: Apache-2.0
   open_source: true
-  stars: 8404
-  forks: 665
+  stars: 8420
+  forks: 667
   last_commit: '2026-04-24T03:56:58Z'
   last_release: '2025-11-28T15:17:55Z'
   archived: false
@@ -287,7 +287,7 @@ keyboards:
   source_urls:
   - https://github.com/florisboard/florisboard
   - https://florisboard.org/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Modern open-source keyboard with strong theming direction and active architecture work.
   recommendation_reason: Best candidate for serious UI experiments, Compose-based refactors, and custom themes.
 - name: FUTO Keyboard
@@ -299,13 +299,13 @@ keyboards:
   website_url: https://keyboard.futo.org/
   fdroid_url: null
   play_store_url: https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin
-  license: FUTO Source First License
+  license: NOASSERTION
   open_source: true
-  stars: null
-  forks: null
-  last_commit: null
-  last_release: null
-  archived: null
+  stars: 2629
+  forks: 166
+  last_commit: '2026-06-12T17:38:02Z'
+  last_release: '2026-06-01T22:59:43Z'
+  archived: false
   maintenance_status: active
   tech_stack: Kotlin, Java, Android
   android_ime_framework: Android InputMethodService
@@ -328,7 +328,7 @@ keyboards:
   source_urls:
   - https://github.com/futo-org/android-keyboard
   - https://keyboard.futo.org/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Privacy-oriented keyboard with local-first ambitions and richer prediction features.
   recommendation_reason: Interesting bridge between mainstream prediction quality and privacy-first design.
 - name: OpenBoard
@@ -339,10 +339,10 @@ keyboards:
   play_store_url: null
   license: GPL-3.0
   open_source: true
-  stars: 2724
-  forks: 290
-  last_commit: '2024-05-16T16:55:59Z'
-  last_release: null
+  stars: 2723
+  forks: 292
+  last_commit: '2022-12-17T13:01:09Z'
+  last_release: '2022-08-05T16:44:23Z'
   archived: false
   maintenance_status: maintenance-only
   tech_stack: Java, Android
@@ -366,7 +366,7 @@ keyboards:
   source_urls:
   - https://github.com/openboard-team/openboard
   - https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Clean AOSP-derived keyboard, useful historically and as a simpler code base.
   recommendation_reason: Good reference for minimal offline keyboard behavior, but check maintenance before forking.
 - name: AnySoftKeyboard
@@ -379,8 +379,8 @@ keyboards:
   play_store_url: https://play.google.com/store/apps/details?id=com.menny.android.anysoftkeyboard
   license: Apache-2.0
   open_source: true
-  stars: 3319
-  forks: 923
+  stars: 3321
+  forks: 924
   last_commit: '2026-05-17T02:20:56Z'
   last_release: '2026-02-08T15:13:23Z'
   archived: false
@@ -406,7 +406,7 @@ keyboards:
   source_urls:
   - https://github.com/AnySoftKeyboard/AnySoftKeyboard
   - https://anysoftkeyboard.github.io/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Mature modular keyboard with language packs and theme infrastructure.
   recommendation_reason: Strong candidate for studying plugin-like language and theme packaging.
 - name: Simple Keyboard
@@ -417,8 +417,8 @@ keyboards:
   play_store_url: https://play.google.com/store/apps/details?id=rkr.simplekeyboard.inputmethod
   license: Apache-2.0
   open_source: true
-  stars: 1520
-  forks: 332
+  stars: 1523
+  forks: 333
   last_commit: '2026-06-01T10:07:49Z'
   last_release: '2026-05-23T05:12:26Z'
   archived: false
@@ -444,7 +444,7 @@ keyboards:
   source_urls:
   - https://github.com/rkkr/simple-keyboard
   - https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Minimal keyboard with a small scope and few moving parts.
   recommendation_reason: Good for learning Android IME basics or building a deliberately simple fork.
 - name: Unexpected Keyboard
@@ -455,9 +455,9 @@ keyboards:
   play_store_url: https://play.google.com/store/apps/details?id=juloo.keyboard2
   license: GPL-3.0
   open_source: true
-  stars: 3054
-  forks: 336
-  last_commit: '2026-05-24T22:43:37Z'
+  stars: 3072
+  forks: 339
+  last_commit: '2026-06-14T10:57:06Z'
   last_release: '2026-05-24T22:47:47Z'
   archived: false
   maintenance_status: active
@@ -483,7 +483,7 @@ keyboards:
   source_urls:
   - https://github.com/Julow/Unexpected-Keyboard
   - https://f-droid.org/packages/juloo.keyboard2/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Symbol-heavy keyboard optimized for programmers, terminals, and power users.
   recommendation_reason: Excellent reference for non-mainstream layouts and dense gesture-accessible symbols.
 - name: Hacker's Keyboard
@@ -494,11 +494,11 @@ keyboards:
   play_store_url: https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard
   license: Apache-2.0
   open_source: true
-  stars: null
-  forks: null
-  last_commit: null
-  last_release: null
-  archived: null
+  stars: 2336
+  forks: 556
+  last_commit: '2024-10-09T18:29:11Z'
+  last_release: '2018-11-26T22:07:18Z'
+  archived: false
   maintenance_status: inactive
   tech_stack: Java, Android
   android_ime_framework: Android InputMethodService
@@ -521,7 +521,7 @@ keyboards:
   source_urls:
   - https://github.com/klausw/hackerskeyboard
   - https://f-droid.org/packages/org.pocketworkstation.pckeyboard/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Classic five-row keyboard for terminal and remote-desktop workflows.
   recommendation_reason: Historically important hacker keyboard, but new projects should account for age and maintenance risk.
 - name: Trime
@@ -535,9 +535,9 @@ keyboards:
   play_store_url: null
   license: GPL-3.0
   open_source: true
-  stars: 4375
-  forks: 476
-  last_commit: '2026-06-04T13:10:35Z'
+  stars: 4392
+  forks: 480
+  last_commit: '2026-06-09T13:50:45Z'
   last_release: '2026-05-01T01:31:54Z'
   archived: false
   maintenance_status: active
@@ -563,7 +563,7 @@ keyboards:
   source_urls:
   - https://github.com/osfans/trime
   - https://f-droid.org/packages/com.osfans.trime/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Android Rime frontend with deep schema and theme customization.
   recommendation_reason: Best Android choice for serious Chinese Rime users and schema-heavy workflows.
 - name: Fcitx5 for Android
@@ -576,9 +576,9 @@ keyboards:
   play_store_url: null
   license: LGPL-2.1
   open_source: true
-  stars: 5310
-  forks: 373
-  last_commit: '2026-06-07T11:37:55Z'
+  stars: 5336
+  forks: 379
+  last_commit: '2026-06-13T07:02:03Z'
   last_release: '2025-11-01T08:21:22Z'
   archived: false
   maintenance_status: active
@@ -605,7 +605,7 @@ keyboards:
   source_urls:
   - https://github.com/fcitx5-android/fcitx5-android
   - https://fcitx5-android.github.io/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Android port of the Fcitx5 input method framework with addon-oriented design.
   recommendation_reason: Best reference for bringing desktop IME architecture and Rime support to Android.
 - name: Rime
@@ -616,11 +616,11 @@ keyboards:
   play_store_url: null
   license: BSD-3-Clause
   open_source: true
-  stars: null
-  forks: null
-  last_commit: null
-  last_release: null
-  archived: null
+  stars: 4422
+  forks: 692
+  last_commit: '2026-06-09T03:44:50Z'
+  last_release: '2026-06-06T03:33:02Z'
+  archived: false
   maintenance_status: active
   tech_stack: C++, Rime schemas
   android_ime_framework: Engine/library, not an Android IME by itself
@@ -644,7 +644,7 @@ keyboards:
   source_urls:
   - https://github.com/rime/librime
   - https://rime.im/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Cross-platform input engine powering many Chinese schema-based IMEs.
   recommendation_reason: Essential engine reference for Chinese IME developers and Rime-based Android projects.
 - name: Thumb-Key
@@ -655,9 +655,9 @@ keyboards:
   play_store_url: https://play.google.com/store/apps/details?id=com.dessalines.thumbkey
   license: AGPL-3.0
   open_source: true
-  stars: 1490
-  forks: 306
-  last_commit: '2026-06-06T02:17:55Z'
+  stars: 1493
+  forks: 307
+  last_commit: '2026-06-13T02:24:19Z'
   last_release: '2026-05-22T15:19:05Z'
   archived: false
   maintenance_status: active
@@ -683,7 +683,7 @@ keyboards:
   source_urls:
   - https://github.com/dessalines/thumb-key
   - https://f-droid.org/packages/com.dessalines.thumbkey/
-  last_verified: '2026-06-09'
+  last_verified: '2026-06-15'
   notes: Thumb-oriented keyboard inspired by compact gesture-based layouts.
   recommendation_reason: Good reference for alternative mobile typing mechanics and compact UI experiments.
 - name: MessageEase
