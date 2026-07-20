@@ -1,6 +1,6 @@
 # Awesome Android Keyboards
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE) ![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--13-blue) [![GitHub Stars](https://img.shields.io/github/stars/ideas-no996/awesome-android-keyboards?style=social)](https://github.com/ideas-no996/awesome-android-keyboards/stargazers)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE) ![Last Updated](https://img.shields.io/badge/last%20updated-2026--07--20-blue) [![GitHub Stars](https://img.shields.io/github/stars/ideas-no996/awesome-android-keyboards?style=social)](https://github.com/ideas-no996/awesome-android-keyboards/stargazers)
 
 > A curated, maintainable map of Android keyboard and input method ecosystems.
 
@@ -8,7 +8,7 @@ Awesome Android Keyboards is a professional index for the android keyboard ecosy
 
 The list is intentionally conservative. It does not rank projects by hype, copy marketing text, or treat closed-source claims as implementation facts. Each entry is backed by structured data in YAML, source links, maintenance notes, privacy/network signals, theme suitability, Chinese input support, and a short original review.
 
-Data file: [`data/keyboards.yml`](data/keyboards.yml). Generated from structured data on 2026-07-13.
+Data file: [`data/keyboards.yml`](data/keyboards.yml). Generated from structured data on 2026-07-20.
 
 ## Table of Contents
 
@@ -52,36 +52,36 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 
 | Name | Source | License | Stars | Signals | Short review |
 | --- | --- | --- | ---: | --- | --- |
-| AnySoftKeyboard | [AnySoftKeyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard) | Apache-2.0 | 3,335 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Strong candidate for studying plugin-like language and theme packaging. |
-| FlorisBoard | [FlorisBoard](https://github.com/florisboard/florisboard) | Apache-2.0 | 8,479 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best candidate for serious UI experiments, Compose-based refactors, and custom themes. |
-| HeliBoard | [HeliBoard](https://github.com/Helium314/HeliBoard) | GPL-3.0 | 5,620 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best starting point for privacy-minded users and theme-oriented forks. |
+| AnySoftKeyboard | [AnySoftKeyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard) | Apache-2.0 | 3,342 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Strong candidate for studying plugin-like language and theme packaging. |
+| FlorisBoard | [FlorisBoard](https://github.com/florisboard/florisboard) | Apache-2.0 | 8,497 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best candidate for serious UI experiments, Compose-based refactors, and custom themes. |
+| HeliBoard | [HeliBoard](https://github.com/Helium314/HeliBoard) | GPL-3.0 | 5,674 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best starting point for privacy-minded users and theme-oriented forks. |
 | OpenBoard | [OpenBoard](https://github.com/openboard-team/openboard) | GPL-3.0 | 2,728 | Chinese: basic<br>Theme: basic<br>Offline: Yes<br>Privacy: high | Good reference for minimal offline keyboard behavior, but check maintenance before forking. |
-| Simple Keyboard | [Simple Keyboard](https://github.com/rkkr/simple-keyboard) | Apache-2.0 | 1,536 | Chinese: none<br>Theme: basic<br>Offline: Yes<br>Privacy: high | Good for learning Android IME basics or building a deliberately simple fork. |
+| Simple Keyboard | [Simple Keyboard](https://github.com/rkkr/simple-keyboard) | Apache-2.0 | 1,540 | Chinese: none<br>Theme: basic<br>Offline: Yes<br>Privacy: high | Good for learning Android IME basics or building a deliberately simple fork. |
 
 ### Rime-based Keyboards
 
 | Name | Source | License | Stars | Signals | Short review |
 | --- | --- | --- | ---: | --- | --- |
-| Fcitx5 for Android | [Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android) | LGPL-2.1 | 5,420 | Chinese: rime-based<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best reference for bringing desktop IME architecture and Rime support to Android. |
-| Trime | [Trime](https://github.com/osfans/trime) | GPL-3.0 | 4,469 | Chinese: rime-based<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best Android choice for serious Chinese Rime users and schema-heavy workflows. |
+| Fcitx5 for Android | [Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android) | LGPL-2.1 | 5,445 | Chinese: rime-based<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best reference for bringing desktop IME architecture and Rime support to Android. |
+| Trime | [Trime](https://github.com/osfans/trime) | GPL-3.0 | 4,494 | Chinese: rime-based<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best Android choice for serious Chinese Rime users and schema-heavy workflows. |
 
 ### Privacy-focused Keyboards
 
 | Name | Source | License | Stars | Signals | Short review |
 | --- | --- | --- | ---: | --- | --- |
-| Fcitx5 for Android | [Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android) | LGPL-2.1 | 5,420 | Chinese: rime-based<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best reference for bringing desktop IME architecture and Rime support to Android. |
-| FlorisBoard | [FlorisBoard](https://github.com/florisboard/florisboard) | Apache-2.0 | 8,479 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best candidate for serious UI experiments, Compose-based refactors, and custom themes. |
-| FUTO Keyboard | [FUTO Keyboard](https://github.com/futo-org/android-keyboard) | NOASSERTION | 2,852 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Interesting bridge between mainstream prediction quality and privacy-first design. |
-| HeliBoard | [HeliBoard](https://github.com/Helium314/HeliBoard) | GPL-3.0 | 5,620 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best starting point for privacy-minded users and theme-oriented forks. |
-| Thumb-Key | [Thumb-Key](https://github.com/dessalines/thumb-key) | AGPL-3.0 | 1,502 | Chinese: none<br>Theme: good<br>Offline: Yes<br>Privacy: high | Good reference for alternative mobile typing mechanics and compact UI experiments. |
-| Trime | [Trime](https://github.com/osfans/trime) | GPL-3.0 | 4,469 | Chinese: rime-based<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best Android choice for serious Chinese Rime users and schema-heavy workflows. |
+| Fcitx5 for Android | [Fcitx5 for Android](https://github.com/fcitx5-android/fcitx5-android) | LGPL-2.1 | 5,445 | Chinese: rime-based<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best reference for bringing desktop IME architecture and Rime support to Android. |
+| FlorisBoard | [FlorisBoard](https://github.com/florisboard/florisboard) | Apache-2.0 | 8,497 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best candidate for serious UI experiments, Compose-based refactors, and custom themes. |
+| FUTO Keyboard | [FUTO Keyboard](https://github.com/futo-org/android-keyboard) | NOASSERTION | 2,881 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Interesting bridge between mainstream prediction quality and privacy-first design. |
+| HeliBoard | [HeliBoard](https://github.com/Helium314/HeliBoard) | GPL-3.0 | 5,674 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best starting point for privacy-minded users and theme-oriented forks. |
+| Thumb-Key | [Thumb-Key](https://github.com/dessalines/thumb-key) | AGPL-3.0 | 1,511 | Chinese: none<br>Theme: good<br>Offline: Yes<br>Privacy: high | Good reference for alternative mobile typing mechanics and compact UI experiments. |
+| Trime | [Trime](https://github.com/osfans/trime) | GPL-3.0 | 4,494 | Chinese: rime-based<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best Android choice for serious Chinese Rime users and schema-heavy workflows. |
 
 ### AI-assisted Keyboards
 
 | Name | Source | License | Stars | Signals | Short review |
 | --- | --- | --- | ---: | --- | --- |
 | Baidu IME | [Baidu IME](https://shurufa.baidu.com/) | Proprietary | N/A | Chinese: excellent<br>Theme: advanced<br>Offline: partial<br>Privacy: medium | Worth tracking for Chinese input UX patterns, especially commercial theming and prediction. |
-| FUTO Keyboard | [FUTO Keyboard](https://github.com/futo-org/android-keyboard) | NOASSERTION | 2,852 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Interesting bridge between mainstream prediction quality and privacy-first design. |
+| FUTO Keyboard | [FUTO Keyboard](https://github.com/futo-org/android-keyboard) | NOASSERTION | 2,881 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Interesting bridge between mainstream prediction quality and privacy-first design. |
 | Microsoft SwiftKey | [Microsoft SwiftKey](https://www.microsoft.com/swiftkey) | Proprietary | N/A | Chinese: good<br>Theme: advanced<br>Offline: partial<br>Privacy: medium | Strong mainstream choice for users who value prediction quality and visual customization. |
 | Sogou IME | [Sogou IME](https://shurufa.sogou.com/) | Proprietary | N/A | Chinese: excellent<br>Theme: advanced<br>Offline: partial<br>Privacy: medium | Useful reference point for Chinese commercial keyboard features and theme marketplaces. |
 
@@ -89,29 +89,29 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 
 | Name | Source | License | Stars | Signals | Short review |
 | --- | --- | --- | ---: | --- | --- |
-| Hacker's Keyboard | [Hacker's Keyboard](https://github.com/klausw/hackerskeyboard) | Apache-2.0 | 2,361 | Chinese: none<br>Theme: basic<br>Offline: Yes<br>Privacy: high | Historically important hacker keyboard, but new projects should account for age and maintenance risk. |
+| Hacker's Keyboard | [Hacker's Keyboard](https://github.com/klausw/hackerskeyboard) | Apache-2.0 | 2,367 | Chinese: none<br>Theme: basic<br>Offline: Yes<br>Privacy: high | Historically important hacker keyboard, but new projects should account for age and maintenance risk. |
 | MessageEase | [MessageEase](https://www.exideas.com/ME/) | Proprietary | N/A | Chinese: none<br>Theme: basic<br>Offline: Yes<br>Privacy: medium | Included as a design reference for non-QWERTY mobile input methods. |
-| Unexpected Keyboard | [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard) | GPL-3.0 | 3,124 | Chinese: none<br>Theme: good<br>Offline: Yes<br>Privacy: high | Excellent reference for non-mainstream layouts and dense gesture-accessible symbols. |
+| Unexpected Keyboard | [Unexpected Keyboard](https://github.com/Julow/Unexpected-Keyboard) | GPL-3.0 | 3,133 | Chinese: none<br>Theme: good<br>Offline: Yes<br>Privacy: high | Excellent reference for non-mainstream layouts and dense gesture-accessible symbols. |
 
 ### Theme and Customization Resources
 
 | Name | Source | License | Stars | Signals | Short review |
 | --- | --- | --- | ---: | --- | --- |
-| AnySoftKeyboard | [AnySoftKeyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard) | Apache-2.0 | 3,335 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Strong candidate for studying plugin-like language and theme packaging. |
+| AnySoftKeyboard | [AnySoftKeyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard) | Apache-2.0 | 3,342 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Strong candidate for studying plugin-like language and theme packaging. |
 | Baidu IME | [Baidu IME](https://shurufa.baidu.com/) | Proprietary | N/A | Chinese: excellent<br>Theme: advanced<br>Offline: partial<br>Privacy: medium | Worth tracking for Chinese input UX patterns, especially commercial theming and prediction. |
-| FlorisBoard | [FlorisBoard](https://github.com/florisboard/florisboard) | Apache-2.0 | 8,479 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best candidate for serious UI experiments, Compose-based refactors, and custom themes. |
-| FUTO Keyboard | [FUTO Keyboard](https://github.com/futo-org/android-keyboard) | NOASSERTION | 2,852 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Interesting bridge between mainstream prediction quality and privacy-first design. |
-| HeliBoard | [HeliBoard](https://github.com/Helium314/HeliBoard) | GPL-3.0 | 5,620 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best starting point for privacy-minded users and theme-oriented forks. |
+| FlorisBoard | [FlorisBoard](https://github.com/florisboard/florisboard) | Apache-2.0 | 8,497 | Chinese: basic<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best candidate for serious UI experiments, Compose-based refactors, and custom themes. |
+| FUTO Keyboard | [FUTO Keyboard](https://github.com/futo-org/android-keyboard) | NOASSERTION | 2,881 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Interesting bridge between mainstream prediction quality and privacy-first design. |
+| HeliBoard | [HeliBoard](https://github.com/Helium314/HeliBoard) | GPL-3.0 | 5,674 | Chinese: basic<br>Theme: good<br>Offline: Yes<br>Privacy: high | Best starting point for privacy-minded users and theme-oriented forks. |
 | Microsoft SwiftKey | [Microsoft SwiftKey](https://www.microsoft.com/swiftkey) | Proprietary | N/A | Chinese: good<br>Theme: advanced<br>Offline: partial<br>Privacy: medium | Strong mainstream choice for users who value prediction quality and visual customization. |
 | Sogou IME | [Sogou IME](https://shurufa.sogou.com/) | Proprietary | N/A | Chinese: excellent<br>Theme: advanced<br>Offline: partial<br>Privacy: medium | Useful reference point for Chinese commercial keyboard features and theme marketplaces. |
-| Trime | [Trime](https://github.com/osfans/trime) | GPL-3.0 | 4,469 | Chinese: rime-based<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best Android choice for serious Chinese Rime users and schema-heavy workflows. |
+| Trime | [Trime](https://github.com/osfans/trime) | GPL-3.0 | 4,494 | Chinese: rime-based<br>Theme: advanced<br>Offline: Yes<br>Privacy: high | Best Android choice for serious Chinese Rime users and schema-heavy workflows. |
 
 ### Android IME Development Resources
 
 | Name | Source | License | Stars | Signals | Short review |
 | --- | --- | --- | ---: | --- | --- |
 | Android IME APIs | [Android IME APIs](https://developer.android.com/develop/ui/views/touch-and-input/creating-input-method) | Documentation | N/A | Chinese: none<br>Theme: none<br>Offline: Yes<br>Privacy: high | Start here before copying any existing keyboard architecture. |
-| Rime | [Rime](https://github.com/rime/librime) | BSD-3-Clause | 4,489 | Chinese: rime-based<br>Theme: none<br>Offline: Yes<br>Privacy: high | Essential engine reference for Chinese IME developers and Rime-based Android projects. |
+| Rime | [Rime](https://github.com/rime/librime) | BSD-3-Clause | 4,502 | Chinese: rime-based<br>Theme: none<br>Offline: Yes<br>Privacy: high | Essential engine reference for Chinese IME developers and Rime-based Android projects. |
 
 ## Detailed Entries
 
@@ -235,7 +235,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** AnySoftKeyboard
 - **Repository / Website:** [Repository](https://github.com/AnySoftKeyboard/AnySoftKeyboard); [Website](https://anysoftkeyboard.github.io/); [F-Droid](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/); [Play Store](https://play.google.com/store/apps/details?id=com.menny.android.anysoftkeyboard)
 - **License:** Apache-2.0
-- **Stars:** 3,335
+- **Stars:** 3,342
 - **Last commit:** 2026-05-17
 - **Last release:** 2026-02-08
 - **Tech stack:** Kotlin, Java, Android
@@ -247,7 +247,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Strong candidate for studying plugin-like language and theme packaging.
 - **Short review:** Mature modular keyboard with language packs and theme infrastructure.
 - **Sources:** [Source 1](https://github.com/AnySoftKeyboard/AnySoftKeyboard); [Source 2](https://anysoftkeyboard.github.io/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -257,7 +257,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** FlorisBoard
 - **Repository / Website:** [Repository](https://github.com/florisboard/florisboard); [Website](https://florisboard.org/); [F-Droid](https://f-droid.org/packages/dev.patrickgold.florisboard/)
 - **License:** Apache-2.0
-- **Stars:** 8,479
+- **Stars:** 8,497
 - **Last commit:** 2026-07-01
 - **Last release:** 2025-11-28
 - **Tech stack:** Kotlin, Jetpack Compose, Android
@@ -269,7 +269,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best candidate for serious UI experiments, Compose-based refactors, and custom themes.
 - **Short review:** Modern open-source keyboard with strong theming direction and active architecture work.
 - **Sources:** [Source 1](https://github.com/florisboard/florisboard); [Source 2](https://florisboard.org/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -279,8 +279,8 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** HeliBoard
 - **Repository / Website:** [Repository](https://github.com/Helium314/HeliBoard); [F-Droid](https://f-droid.org/packages/helium314.keyboard/)
 - **License:** GPL-3.0
-- **Stars:** 5,620
-- **Last commit:** 2026-07-12
+- **Stars:** 5,674
+- **Last commit:** 2026-07-19
 - **Last release:** 2026-07-10
 - **Tech stack:** Kotlin, Java, Android
 - **Chinese support:** basic
@@ -291,7 +291,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best starting point for privacy-minded users and theme-oriented forks.
 - **Short review:** Active privacy-friendly fork in the LatinIME/OpenBoard lineage.
 - **Sources:** [Source 1](https://github.com/Helium314/HeliBoard); [Source 2](https://f-droid.org/packages/helium314.keyboard/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -313,7 +313,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Good reference for minimal offline keyboard behavior, but check maintenance before forking.
 - **Short review:** Clean AOSP-derived keyboard, useful historically and as a simpler code base.
 - **Sources:** [Source 1](https://github.com/openboard-team/openboard); [Source 2](https://f-droid.org/packages/org.dslul.openboard.inputmethod.latin/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -323,7 +323,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Simple Keyboard
 - **Repository / Website:** [Repository](https://github.com/rkkr/simple-keyboard); [F-Droid](https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/); [Play Store](https://play.google.com/store/apps/details?id=rkr.simplekeyboard.inputmethod)
 - **License:** Apache-2.0
-- **Stars:** 1,536
+- **Stars:** 1,540
 - **Last commit:** 2026-07-12
 - **Last release:** 2026-05-23
 - **Tech stack:** Kotlin, Java, Android
@@ -335,7 +335,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Good for learning Android IME basics or building a deliberately simple fork.
 - **Short review:** Minimal keyboard with a small scope and few moving parts.
 - **Sources:** [Source 1](https://github.com/rkkr/simple-keyboard); [Source 2](https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -347,7 +347,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Fcitx5 for Android
 - **Repository / Website:** [Repository](https://github.com/fcitx5-android/fcitx5-android); [Website](https://fcitx5-android.github.io/); [F-Droid](https://f-droid.org/packages/org.fcitx.fcitx5.android/)
 - **License:** LGPL-2.1
-- **Stars:** 5,420
+- **Stars:** 5,445
 - **Last commit:** 2026-07-12
 - **Last release:** 2025-11-01
 - **Tech stack:** Kotlin, C++, Fcitx5, Rime
@@ -359,7 +359,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best reference for bringing desktop IME architecture and Rime support to Android.
 - **Short review:** Android port of the Fcitx5 input method framework with addon-oriented design.
 - **Sources:** [Source 1](https://github.com/fcitx5-android/fcitx5-android); [Source 2](https://fcitx5-android.github.io/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -369,8 +369,8 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Trime
 - **Repository / Website:** [Repository](https://github.com/osfans/trime); [Website](https://github.com/osfans/trime); [F-Droid](https://f-droid.org/packages/com.osfans.trime/)
 - **License:** GPL-3.0
-- **Stars:** 4,469
-- **Last commit:** 2026-07-07
+- **Stars:** 4,494
+- **Last commit:** 2026-07-19
 - **Last release:** 2026-07-01
 - **Tech stack:** Kotlin, Java, C++, Rime
 - **Chinese support:** rime-based
@@ -381,7 +381,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best Android choice for serious Chinese Rime users and schema-heavy workflows.
 - **Short review:** Android Rime frontend with deep schema and theme customization.
 - **Sources:** [Source 1](https://github.com/osfans/trime); [Source 2](https://f-droid.org/packages/com.osfans.trime/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -393,7 +393,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Fcitx5 for Android
 - **Repository / Website:** [Repository](https://github.com/fcitx5-android/fcitx5-android); [Website](https://fcitx5-android.github.io/); [F-Droid](https://f-droid.org/packages/org.fcitx.fcitx5.android/)
 - **License:** LGPL-2.1
-- **Stars:** 5,420
+- **Stars:** 5,445
 - **Last commit:** 2026-07-12
 - **Last release:** 2025-11-01
 - **Tech stack:** Kotlin, C++, Fcitx5, Rime
@@ -405,7 +405,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best reference for bringing desktop IME architecture and Rime support to Android.
 - **Short review:** Android port of the Fcitx5 input method framework with addon-oriented design.
 - **Sources:** [Source 1](https://github.com/fcitx5-android/fcitx5-android); [Source 2](https://fcitx5-android.github.io/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -415,7 +415,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** FlorisBoard
 - **Repository / Website:** [Repository](https://github.com/florisboard/florisboard); [Website](https://florisboard.org/); [F-Droid](https://f-droid.org/packages/dev.patrickgold.florisboard/)
 - **License:** Apache-2.0
-- **Stars:** 8,479
+- **Stars:** 8,497
 - **Last commit:** 2026-07-01
 - **Last release:** 2025-11-28
 - **Tech stack:** Kotlin, Jetpack Compose, Android
@@ -427,7 +427,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best candidate for serious UI experiments, Compose-based refactors, and custom themes.
 - **Short review:** Modern open-source keyboard with strong theming direction and active architecture work.
 - **Sources:** [Source 1](https://github.com/florisboard/florisboard); [Source 2](https://florisboard.org/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -437,7 +437,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** FUTO Keyboard
 - **Repository / Website:** [Repository](https://github.com/futo-org/android-keyboard); [Website](https://keyboard.futo.org/); [Play Store](https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin)
 - **License:** NOASSERTION
-- **Stars:** 2,852
+- **Stars:** 2,881
 - **Last commit:** 2026-07-08
 - **Last release:** 2026-06-22
 - **Tech stack:** Kotlin, Java, Android
@@ -449,7 +449,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Interesting bridge between mainstream prediction quality and privacy-first design.
 - **Short review:** Privacy-oriented keyboard with local-first ambitions and richer prediction features.
 - **Sources:** [Source 1](https://github.com/futo-org/android-keyboard); [Source 2](https://keyboard.futo.org/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -459,8 +459,8 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** HeliBoard
 - **Repository / Website:** [Repository](https://github.com/Helium314/HeliBoard); [F-Droid](https://f-droid.org/packages/helium314.keyboard/)
 - **License:** GPL-3.0
-- **Stars:** 5,620
-- **Last commit:** 2026-07-12
+- **Stars:** 5,674
+- **Last commit:** 2026-07-19
 - **Last release:** 2026-07-10
 - **Tech stack:** Kotlin, Java, Android
 - **Chinese support:** basic
@@ -471,7 +471,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best starting point for privacy-minded users and theme-oriented forks.
 - **Short review:** Active privacy-friendly fork in the LatinIME/OpenBoard lineage.
 - **Sources:** [Source 1](https://github.com/Helium314/HeliBoard); [Source 2](https://f-droid.org/packages/helium314.keyboard/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -481,8 +481,8 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Thumb-Key
 - **Repository / Website:** [Repository](https://github.com/dessalines/thumb-key); [F-Droid](https://f-droid.org/packages/com.dessalines.thumbkey/); [Play Store](https://play.google.com/store/apps/details?id=com.dessalines.thumbkey)
 - **License:** AGPL-3.0
-- **Stars:** 1,502
-- **Last commit:** 2026-07-12
+- **Stars:** 1,511
+- **Last commit:** 2026-07-18
 - **Last release:** 2026-07-12
 - **Tech stack:** Kotlin, Jetpack Compose, Android
 - **Chinese support:** none
@@ -493,7 +493,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Good reference for alternative mobile typing mechanics and compact UI experiments.
 - **Short review:** Thumb-oriented keyboard inspired by compact gesture-based layouts.
 - **Sources:** [Source 1](https://github.com/dessalines/thumb-key); [Source 2](https://f-droid.org/packages/com.dessalines.thumbkey/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -503,8 +503,8 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Trime
 - **Repository / Website:** [Repository](https://github.com/osfans/trime); [Website](https://github.com/osfans/trime); [F-Droid](https://f-droid.org/packages/com.osfans.trime/)
 - **License:** GPL-3.0
-- **Stars:** 4,469
-- **Last commit:** 2026-07-07
+- **Stars:** 4,494
+- **Last commit:** 2026-07-19
 - **Last release:** 2026-07-01
 - **Tech stack:** Kotlin, Java, C++, Rime
 - **Chinese support:** rime-based
@@ -515,7 +515,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best Android choice for serious Chinese Rime users and schema-heavy workflows.
 - **Short review:** Android Rime frontend with deep schema and theme customization.
 - **Sources:** [Source 1](https://github.com/osfans/trime); [Source 2](https://f-droid.org/packages/com.osfans.trime/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -549,7 +549,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** FUTO Keyboard
 - **Repository / Website:** [Repository](https://github.com/futo-org/android-keyboard); [Website](https://keyboard.futo.org/); [Play Store](https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin)
 - **License:** NOASSERTION
-- **Stars:** 2,852
+- **Stars:** 2,881
 - **Last commit:** 2026-07-08
 - **Last release:** 2026-06-22
 - **Tech stack:** Kotlin, Java, Android
@@ -561,7 +561,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Interesting bridge between mainstream prediction quality and privacy-first design.
 - **Short review:** Privacy-oriented keyboard with local-first ambitions and richer prediction features.
 - **Sources:** [Source 1](https://github.com/futo-org/android-keyboard); [Source 2](https://keyboard.futo.org/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -617,7 +617,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Hacker's Keyboard
 - **Repository / Website:** [Repository](https://github.com/klausw/hackerskeyboard); [Website](https://code.google.com/archive/p/hackerskeyboard/); [F-Droid](https://f-droid.org/packages/org.pocketworkstation.pckeyboard/); [Play Store](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard)
 - **License:** Apache-2.0
-- **Stars:** 2,361
+- **Stars:** 2,367
 - **Last commit:** 2024-10-09
 - **Last release:** 2018-11-26
 - **Tech stack:** Java, Android
@@ -629,7 +629,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Historically important hacker keyboard, but new projects should account for age and maintenance risk.
 - **Short review:** Classic five-row keyboard for terminal and remote-desktop workflows.
 - **Sources:** [Source 1](https://github.com/klausw/hackerskeyboard); [Source 2](https://f-droid.org/packages/org.pocketworkstation.pckeyboard/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -661,7 +661,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Unexpected Keyboard
 - **Repository / Website:** [Repository](https://github.com/Julow/Unexpected-Keyboard); [F-Droid](https://f-droid.org/packages/juloo.keyboard2/); [Play Store](https://play.google.com/store/apps/details?id=juloo.keyboard2)
 - **License:** GPL-3.0
-- **Stars:** 3,124
+- **Stars:** 3,133
 - **Last commit:** 2026-07-08
 - **Last release:** 2026-05-24
 - **Tech stack:** Kotlin, Java, Android
@@ -673,7 +673,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Excellent reference for non-mainstream layouts and dense gesture-accessible symbols.
 - **Short review:** Symbol-heavy keyboard optimized for programmers, terminals, and power users.
 - **Sources:** [Source 1](https://github.com/Julow/Unexpected-Keyboard); [Source 2](https://f-droid.org/packages/juloo.keyboard2/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -685,7 +685,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** AnySoftKeyboard
 - **Repository / Website:** [Repository](https://github.com/AnySoftKeyboard/AnySoftKeyboard); [Website](https://anysoftkeyboard.github.io/); [F-Droid](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/); [Play Store](https://play.google.com/store/apps/details?id=com.menny.android.anysoftkeyboard)
 - **License:** Apache-2.0
-- **Stars:** 3,335
+- **Stars:** 3,342
 - **Last commit:** 2026-05-17
 - **Last release:** 2026-02-08
 - **Tech stack:** Kotlin, Java, Android
@@ -697,7 +697,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Strong candidate for studying plugin-like language and theme packaging.
 - **Short review:** Mature modular keyboard with language packs and theme infrastructure.
 - **Sources:** [Source 1](https://github.com/AnySoftKeyboard/AnySoftKeyboard); [Source 2](https://anysoftkeyboard.github.io/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -729,7 +729,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** FlorisBoard
 - **Repository / Website:** [Repository](https://github.com/florisboard/florisboard); [Website](https://florisboard.org/); [F-Droid](https://f-droid.org/packages/dev.patrickgold.florisboard/)
 - **License:** Apache-2.0
-- **Stars:** 8,479
+- **Stars:** 8,497
 - **Last commit:** 2026-07-01
 - **Last release:** 2025-11-28
 - **Tech stack:** Kotlin, Jetpack Compose, Android
@@ -741,7 +741,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best candidate for serious UI experiments, Compose-based refactors, and custom themes.
 - **Short review:** Modern open-source keyboard with strong theming direction and active architecture work.
 - **Sources:** [Source 1](https://github.com/florisboard/florisboard); [Source 2](https://florisboard.org/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -751,7 +751,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** FUTO Keyboard
 - **Repository / Website:** [Repository](https://github.com/futo-org/android-keyboard); [Website](https://keyboard.futo.org/); [Play Store](https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin)
 - **License:** NOASSERTION
-- **Stars:** 2,852
+- **Stars:** 2,881
 - **Last commit:** 2026-07-08
 - **Last release:** 2026-06-22
 - **Tech stack:** Kotlin, Java, Android
@@ -763,7 +763,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Interesting bridge between mainstream prediction quality and privacy-first design.
 - **Short review:** Privacy-oriented keyboard with local-first ambitions and richer prediction features.
 - **Sources:** [Source 1](https://github.com/futo-org/android-keyboard); [Source 2](https://keyboard.futo.org/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -773,8 +773,8 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** HeliBoard
 - **Repository / Website:** [Repository](https://github.com/Helium314/HeliBoard); [F-Droid](https://f-droid.org/packages/helium314.keyboard/)
 - **License:** GPL-3.0
-- **Stars:** 5,620
-- **Last commit:** 2026-07-12
+- **Stars:** 5,674
+- **Last commit:** 2026-07-19
 - **Last release:** 2026-07-10
 - **Tech stack:** Kotlin, Java, Android
 - **Chinese support:** basic
@@ -785,7 +785,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best starting point for privacy-minded users and theme-oriented forks.
 - **Short review:** Active privacy-friendly fork in the LatinIME/OpenBoard lineage.
 - **Sources:** [Source 1](https://github.com/Helium314/HeliBoard); [Source 2](https://f-droid.org/packages/helium314.keyboard/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -839,8 +839,8 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Trime
 - **Repository / Website:** [Repository](https://github.com/osfans/trime); [Website](https://github.com/osfans/trime); [F-Droid](https://f-droid.org/packages/com.osfans.trime/)
 - **License:** GPL-3.0
-- **Stars:** 4,469
-- **Last commit:** 2026-07-07
+- **Stars:** 4,494
+- **Last commit:** 2026-07-19
 - **Last release:** 2026-07-01
 - **Tech stack:** Kotlin, Java, C++, Rime
 - **Chinese support:** rime-based
@@ -851,7 +851,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Best Android choice for serious Chinese Rime users and schema-heavy workflows.
 - **Short review:** Android Rime frontend with deep schema and theme customization.
 - **Sources:** [Source 1](https://github.com/osfans/trime); [Source 2](https://f-droid.org/packages/com.osfans.trime/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
@@ -885,7 +885,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Name:** Rime
 - **Repository / Website:** [Repository](https://github.com/rime/librime); [Website](https://rime.im/)
 - **License:** BSD-3-Clause
-- **Stars:** 4,489
+- **Stars:** 4,502
 - **Last commit:** 2026-07-04
 - **Last release:** 2026-06-06
 - **Tech stack:** C++, Rime schemas
@@ -897,7 +897,7 @@ The tables stay intentionally compact. Full evaluation fields live in `data/keyb
 - **Recommended use case:** Essential engine reference for Chinese IME developers and Rime-based Android projects.
 - **Short review:** Cross-platform input engine powering many Chinese schema-based IMEs.
 - **Sources:** [Source 1](https://github.com/rime/librime); [Source 2](https://rime.im/)
-- **Last verified:** 2026-07-13
+- **Last verified:** 2026-07-20
 
 </details>
 
